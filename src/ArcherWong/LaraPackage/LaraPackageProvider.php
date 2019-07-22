@@ -33,7 +33,7 @@ class LaraPackageProvider extends ServiceProvider
         $this->app->singleton('larapackage',function(){
             //我们可以通过facades的aliase访问下面的MoreAction
             //会在config的app.php文件中进行服务提供者和别名的注册
-            return $this->app->make('ArcherWong\LaraPackage\ArcherWong\LaraPackage\MoreAction');
+            return $this->app->make('ArcherWong\LaraPackage\ArcherWong\LaraPackage\LaraPackage');
         });
     }
 }
