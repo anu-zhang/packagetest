@@ -14,8 +14,7 @@
   },
   "autoload": {
     "psr-4": {
-      "App\\": "app/",
-      "ArcherWong\\LaraPackage\\": "packages/archerwong/larapackage/src/"
+      "ArcherWong\\LaraPackage\\": "/src"
     }
   }
 }
