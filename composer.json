@@ -1,5 +1,5 @@
 {
-  "name": "shebao/zmktest",
+  "name": "shebao/larapackage",
   "description": "my first test packages1 test webhook",
   "license": "MIT",
   "authors": [
@@ -8,7 +8,6 @@
       "email": "michael_u@163.com"
     }
   ],
-  "minimum-stability": "stable",
   "require": {
     "php": ">=5.4.36"
   },
