@@ -12,6 +12,13 @@
   "require": {
     "php": ">=5.4.36"
   },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "ArcherWong\\LaraPackage\\ArcherWong\\LaraPackage\\LaraPackageProvider"
+      ]
+    }
+  },
   "autoload": {
     "psr-4": {
       "ArcherWong\\LaraPackage\\": "/src"
